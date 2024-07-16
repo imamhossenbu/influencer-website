@@ -34,6 +34,10 @@
         left: 10%;
         width: 80%;
     }
+    main{
+        width: 90%;
+        margin: 0 auto;
+    }
     .main-social{
         width: 100%;
         flex-wrap: wrap;
@@ -43,6 +47,9 @@
     }
     .main-social img{
         width: 19%;
+    }
+    .cards{
+        grid-template-columns: 100%;
     }
 }
 
@@ -89,6 +96,10 @@
         left: 10%;
         width: 80%;
     }
+    main{
+        width: 90%;
+        margin: 0 auto;
+    }
     .main-social{
         width: 100%;
         flex-wrap: wrap;
@@ -98,6 +109,13 @@
     }
     .main-social img{
         width: 19%;
+    }
+    .cards{
+        grid-template-columns: 47% 48%;
+    }
+    #card{
+        display: grid;
+        grid-column: 1/3;
     }
 }
 
@@ -130,7 +148,6 @@
     }
     .main-social{
         width: 100%;
-        /* flex-wrap: wrap; */
         gap: 40px;
         margin: 100px 0;
     }
