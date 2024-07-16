@@ -1,0 +1,14 @@
+main{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.main-social{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 200px;
+    border-top: 2px solid rgba(98, 95, 95, 0.11);
+    border-bottom: 2px solid rgba(98, 95, 95, 0.11);
+    padding: 25px 0;
+}

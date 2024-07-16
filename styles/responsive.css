@@ -13,16 +13,16 @@
     .header-banner{
         width: 90%;
         margin: 0 auto;
-        flex-direction: column;
-        margin-top: 40px;
+        flex-direction: column-reverse;
+        margin-top: 100px;
     }
     .header-desc{
         width: 100%;
         text-align: center;
-        margin-bottom: 80px;
+        margin-top: 80px;
     }
     .header-desc button{
-        width: 50%;
+        width: 60%;
         margin: 0 auto;
     }
     .header-img{
@@ -33,6 +33,16 @@
     .header-img img{
         left: 10%;
         width: 80%;
+    }
+    .main-social{
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 20px;
+        border: none;
+        margin: 40px 0;
+    }
+    .main-social img{
+        width: 19%;
     }
 }
 
@@ -58,13 +68,13 @@
     .header-banner{
         width: 90%;
         margin: 0 auto;
-        flex-direction: column;
-        margin-top: 40px;
+        flex-direction: column-reverse;
+        margin-top: 100px;
     }
     .header-desc{
         width: 100%;
         text-align: center;
-        margin-bottom: 80px;
+        margin-top: 80px;
     }
     .header-desc button{
         width: 40%;
@@ -78,6 +88,16 @@
     .header-img img{
         left: 10%;
         width: 80%;
+    }
+    .main-social{
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 20px;
+        border: none;
+        margin: 40px 0;
+    }
+    .main-social img{
+        width: 19%;
     }
 }
 
@@ -96,7 +116,7 @@
     .header-banner{
         width: 90%;
         margin: 0 auto;
-        margin-top: 50px;
+        margin-top: 100px;
     }
     .header-img{
         background-size: 90%;
@@ -104,6 +124,18 @@
     .header-img img{
         width: 80%;
         left: 15%;
+    }
+    main{
+        width: 90%;
+    }
+    .main-social{
+        width: 100%;
+        /* flex-wrap: wrap; */
+        gap: 40px;
+        margin: 100px 0;
+    }
+    .main-social img{
+        width: 10%;
     }
 }
 
