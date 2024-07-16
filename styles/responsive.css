@@ -51,6 +51,24 @@
     .cards{
         grid-template-columns: 100%;
     }
+    .feature-container{
+        width: 90%;
+        flex-direction: column-reverse;
+    }
+    .feature-desc{
+        width: 100%;
+        text-align: center;
+    }
+    .feature-desc p{
+        width: 100%;
+    }
+    .feature-desc button{
+        width: 40%;
+        margin: 0 auto;
+    }
+    .feature-img{
+        width: 100%;
+    }
 }
 
 
@@ -117,6 +135,24 @@
         display: grid;
         grid-column: 1/3;
     }
+    .feature-container{
+        width: 90%;
+        flex-direction: column-reverse;
+    }
+    .feature-desc{
+        width: 100%;
+        text-align: center;
+    }
+    .feature-desc p{
+        width: 100%;
+    }
+    .feature-desc button{
+        width: 40%;
+        margin: 0 auto;
+    }
+    .feature-img{
+        width: 100%;
+    }
 }
 
 
@@ -153,6 +189,12 @@
     }
     .main-social img{
         width: 10%;
+    }
+    .feature-container{
+        width: 90%;
+    }
+    .feature-img{
+        width: 50%;
     }
 }
 
