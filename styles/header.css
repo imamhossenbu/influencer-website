@@ -22,6 +22,11 @@
     font-size: 22px;
     opacity: 0.7;
 }
+.nav-option{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 .nav-title ul{
     display: flex;
     align-items: center;
@@ -39,6 +44,9 @@
 }
 .nav-title ul li img{
     width: 60%;
+}
+.humburger{
+    display: none;
 }
 .shopping-cart img{
     width: 60%;
